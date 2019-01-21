@@ -1,13 +1,18 @@
 {
   "name": "redux-saga-caller",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Prevent calling redux sagas twice with same params in paralel.",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src/index.js -o dist/index.js",
     "test": "babel-node src/index.test.js"
   },
-  "author": "Juraj Husar",
+  "author": "Juraj Husar <jurosh.com>",
+  "homepage": "https://github.com/jurosh/redux-saga-caller",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/jurosh/redux-saga-caller.git"
+  },
   "license": "ISC",
   "peerDependencies": {
     "redux-saga": "*"
