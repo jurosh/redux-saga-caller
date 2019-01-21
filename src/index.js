@@ -22,7 +22,4 @@ export function* callOncePerParam (id, callFnWithParams) {
 
 export const getRunning = () => runningCalls.entries;
 
-/**
- * Clear all running
- */
 export const clearRunning = () => runningCalls.clear();
