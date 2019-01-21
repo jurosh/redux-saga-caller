@@ -10,7 +10,7 @@ Note: Require `redux-saga` dependency installed in your project.
 
 ## Usage API
 
-Install `npm i jurosh/redux-saga-caller`
+Install `npm i redux-saga-caller`
 
 ```
 callOncePerParams(customIdentifier, sagaFunctionWithParams)
@@ -21,12 +21,12 @@ callOncePerParams(customIdentifier, sagaFunctionWithParams)
 - **identifier**: *string* / *array of string* to uniquely identify your action
 - **sagaFunctionWithParams**: *array* with saga function name and it's params (same as official saga [call](https://redux-saga.js.org/docs/advanced/RunningTasksInParallel.html) params)
 
-To get all running tasks identifiers use method `getRunning`.
+To get all running tasks identifiers (JavaScript `Set`) use method `getRunning`.
 
 ## Example
 
 ```JavaScript
-import { callOncePerParams } from 'jurosh/redux-saga-caller';
+import { callOncePerParams } from 'redux-saga-caller';
 
 // Somewhere in your Redux Saga...
 

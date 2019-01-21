@@ -1,7 +1,7 @@
 {
   "name": "redux-saga-caller",
-  "version": "1.0.4",
-  "description": "Prevent calling redux sagas twice with same params in paralel.",
+  "version": "1.0.5",
+  "description": "Prevent calling redux sagas twice with same params in parallel.",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src/index.js -o dist/index.js",
