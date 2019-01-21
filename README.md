@@ -21,6 +21,8 @@ callOncePerParams(customIdentifier, sagaFunctionWithParams)
 - **identifier**: *string* / *array of string* to uniquely identify your action
 - **sagaFunctionWithParams**: *array* with saga function name and it's params (same as official saga [call](https://redux-saga.js.org/docs/advanced/RunningTasksInParallel.html) params)
 
+To get all running tasks identifiers use method `getRunning`.
+
 ## Example
 
 ```JavaScript
