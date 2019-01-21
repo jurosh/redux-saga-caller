@@ -1,6 +1,6 @@
 {
   "name": "redux-saga-caller",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Prevent calling redux sagas twice with same params in paralel.",
   "main": "dist/index.js",
   "scripts": {
